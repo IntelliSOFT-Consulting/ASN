@@ -1972,7 +1972,7 @@ body:after {
   }
 }
 
-.p1-gradient-bg, .primary-btn:after, .banner-area, .single-feature .icon:after, .service-area, .story-area, .single-widget .icon:after {
+.p1-gradient-bg, .primary-btn:after, .banner-area, .single-feature .icon:after, .service-providers-area, .story-area, .single-widget .icon:after {
   background-image: -moz-linear-gradient(0deg, #e66587 0%, #f09458 100%);
   background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
   background-image: -ms-linear-gradient(0deg, #e66587 0%, #f09458 100%);
@@ -2082,7 +2082,7 @@ body:after {
   margin-bottom: 20px;
 }
 
-.featured-area {
+.benefits-affiliates-area {
   background: #fff;
   padding: 70px 0 80px 0;
 }
@@ -2144,7 +2144,7 @@ body:after {
   -webkit-text-fill-color: transparent;
 }
 
-.service-area {
+.service-providers-area {
   padding: 100px 0;
 }
 
@@ -2188,7 +2188,7 @@ body:after {
   visibility: visible;
 }
 
-.amazing-works-area {
+.asn-works-area {
   background: #f9f9ff;
   padding: 100px 0;
 }
@@ -2282,8 +2282,8 @@ body:after {
   top: 0;
   right: 0;
   width: 50%;
-  height: 100%;
-  background: url(../img/story-bg.jpg) no-repeat center center/cover;
+  height: 50%;
+  /*background: url(../img/story-bg.jpg) no-repeat center center/cover;*/
   z-index: 1;
 }
 
