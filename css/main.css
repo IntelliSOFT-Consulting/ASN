@@ -1169,7 +1169,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ordered-list li {
-  list-style-type: decimal-leading-zero;
+  list-style-type:square;
   color: #e66686;
   font-weight: 500;
   line-height: 1.82em !important;
@@ -1902,7 +1902,7 @@ nav a:hover {
 
 body {
   background-attachment: fixed;
-  background-image: url("../img/body-bg.jpg");
+  background-image: url("../img/asn-logo.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1972,7 +1972,7 @@ body:after {
   }
 }
 
-.p1-gradient-bg, .primary-btn:after, .banner-area, .single-feature .icon:after, .service-providers-area, .story-area, .single-widget .icon:after {
+.p1-gradient-bg, .primary-btn:after, .banner-area, .single-feature .icon:after, .service-providers-area, .asn-works-area, .story-area, .single-widget .icon:after {
   background-image: -moz-linear-gradient(0deg, #e66587 0%, #f09458 100%);
   background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
   background-image: -ms-linear-gradient(0deg, #e66587 0%, #f09458 100%);
@@ -2066,11 +2066,11 @@ body:after {
 }
 
 .banner-area .height {
-  height: 600px;
+  height: 650px;
 }
 
 .banner-area .generic-height {
-  height: 300px;
+  height: 200px;
 }
 
 .banner-content .top {
@@ -2083,6 +2083,16 @@ body:after {
 }
 
 .benefits-affiliates-area {
+  background: #fff;
+  padding: 70px 0 80px 0;
+}
+
+.affiliate-form-area {
+  background: #fff;
+  padding: 70px 0 80px 0;
+}
+
+.get-started-area {
   background: #fff;
   padding: 70px 0 80px 0;
 }
@@ -2188,16 +2198,16 @@ body:after {
   visibility: visible;
 }
 
-.asn-works-area {
-  background: #f9f9ff;
-  padding: 100px 0;
+.asn-works-area{
+  padding: 70px 0;
 }
 
 .active-works-carousel .item .thumb {
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  height: 320px;
+  height: 400px;
+  width: 800px;
 }
 
 .active-works-carousel .item .caption {
@@ -2325,7 +2335,7 @@ body:after {
 
 .subscription-area {
   background: #fff;
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .subscription input {
@@ -2379,7 +2389,7 @@ body:after {
 }
 
 .footer-widget-area {
-  padding: 70px 0 100px 0;
+  padding: 70px 0 50px 0;
   background: transparent;
 }
 
@@ -2533,7 +2543,13 @@ footer .copy-right-text a {
 }
 
 .section-top-border {
-  padding: 70px 0;
+  padding: 5px 0;
+  margin-right: 220px;
+  margin-left: 220px;
+  border-top: 1px dotted #eee;
+}
+.section-top-border-get-started {
+  padding: 5px 0;
   border-top: 1px dotted #eee;
 }
 
