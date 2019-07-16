@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/intellis/public_html/asn
+    - /bin/cp index.html $DEPLOYPATH
